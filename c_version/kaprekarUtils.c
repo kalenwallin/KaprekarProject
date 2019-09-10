@@ -28,12 +28,12 @@ int isKaprekar(int n) {
     return 0; //changed false to 0
   }
 
-  int i, numberOfDigits; //defined numberOfDigits as an integer 
+  int i, numberOfDigits; //defined numberOfDigits as an integer
   //compute the square
   long square = n * (long) n;
   //compute the number of digits of the square
   int numDigits = (int) log10(n) + 1;
-  long modulus = 0;
+  long modulous = 0; //fixed spelling on modulus to modulous
   long first, second;
 
   //for each possible "split" of the square...
