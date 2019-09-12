@@ -14,7 +14,7 @@ C code is available in `c_version/`.  A `makefile` is provided that specifies ho
 
 `make kaprekarDemo`
 
-and then run it from the command line using //TODO: Left off here.
+and then run it from the command line using
 
 `./kaprekarDemo 297`
 
